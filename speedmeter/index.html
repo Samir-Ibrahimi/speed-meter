@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>SpeedMeter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="style.css"></head><body>
+<header>
+  <div class="logo">⚡ SpeedMeter</div>
+  <button id="avatar" title="Account">?</button>
+</header>
+<main>
+  <div class="row">
+    <div><span id="num">0.0</span><span id="unit">Mbps</span></div>
+    <button class="btn" id="pause">Pause</button>
+  </div>
+  <div class="card">Your IP address: <b id="ip">detecting…</b></div>
+  <h3>Recent results</h3>
+  <ul id="history"><li>Sign in to see history</li></ul>
+</main>
+<div id="modal"><div class="box" id="box"></div></div>
+<script src="app.js"></script>
+</body></html>
